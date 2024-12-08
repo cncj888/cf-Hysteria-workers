@@ -1,9 +1,2 @@
 name = "your-worker"
-type = "javascript"
-
-[build]
-command = "npm install && npm run build"
-
-[build.upload]
-format = "service-worker"
 main = "index.js"
